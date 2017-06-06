@@ -12,13 +12,13 @@ const cdn = require('aliyun-cdn-refresh')({
 
 ## To refresh CDN cache
 ```javascript
-cdn.refreshDir(http://yourcdndomain/img/);
-cdn.refreshFile(http://yourcdndomain/img/1.png);
-cdn.refreshFiles([http://yourcdndomain/img/1.png, http://yourcdndomain/img/2.png, ...]);
+cdn.refreshDir('http://yourcdndomain/img/');
+cdn.refreshFile('http://yourcdndomain/img/1.png');
+cdn.refreshFiles(['http://yourcdndomain/img/1.png', 'http://yourcdndomain/img/2.png']);
 ```
 
 ## To push file into CDN cache
 ```javascript
-cdn.pushFile(http://yourcdndomain/img/1.png);
-cdn.pushFiles([http://yourcdndomain/img/1.png, http://yourcdndomain/img/2.png, ...]);
+cdn.pushFile('http://yourcdndomain/img/1.png');
+cdn.pushFiles(['http://yourcdndomain/img/1.png', 'http://yourcdndomain/img/2.png']);
 ```
