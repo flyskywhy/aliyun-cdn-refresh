@@ -11,5 +11,6 @@
   "actions": {
     "refresh": "RefreshObjectCaches",
     "push": "PushObjectCache"
-  }
+  },
+  "timeout": 5000
 }
